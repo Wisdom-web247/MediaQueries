@@ -1,0 +1,35 @@
+body {
+background-color: blue;
+}
+
+/* mobile screen 425px*/
+@media (max-width: 425px){
+    body {
+        background-color: red;
+        
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Tablet 768px*/
+/*@media (max-width: 768px){
+    body {
+        background-color:pink;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Laptop 1440px
+media (max-width: 1440px){
+    body {
+        background-color: black;
+    }
+}*/
